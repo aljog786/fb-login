@@ -1,89 +1,57 @@
-.maindiv{
-    height: 100vh;
-    background-color: 	#f8f8ff;
-    overflow: hidden;
-    padding: 60px 15%;
+img{
+    width: 7rem;
+}
+#email,#pwd{
+    padding: 0.6rem 0 0.6rem 0.5rem ;
+    background-color: #f5f6f7;
+}
+#loginbtn{
+    padding: 0.6rem 0 0.6rem 0.5rem ;
+    font-weight: bold; 
+}
+#forgtnpwd{
+    font-family: sans-serif;
+    color: #216fdb;
+    font-size: 14px;
 }
 
-#logo{
-
-height: 120px;
-
+ hr{
+    width: 46%;
+    display:inline-block;
+    margin:0.2rem;
+ }
+ span{
+    font-size: 14px;
+ }
+#createbtn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #00a400;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
 }
-#colfb>p{
-    
-    font-family: inherit;
-    min-width: 19rem;
-     font-size: 20px;
-   font-weight: normal;
-    
-    
+.row{
+    margin-top: 7rem;
 }
-
-#collogin{
-    height: 325px;
-    width: 350px;
-    min-width:300px;
-    padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+#lang1{
+    margin-right: 4rem;
 }
-#lang,#links{
-    min-width: 300px;
+#lang2{
+    margin-left: 4rem;
 }
-#lang>a,#links>a{
-    color: #8a8d91;
-    text-decoration: none;
+#lang1>a,#lang2>a{
+    color: #90949c;
+    font-weight: bold;
     font-size: 12px;
+    text-decoration: none;
+}
+#links>a,span{
+    text-decoration: none;
+    color: #90949c;
+    font-size: 10px;
 }
 #copyright{
-    color: #8a8d91;
+    color: #90949c;
     font-size: 12px;
 }
-#lang>a:hover{
-    text-decoration: underline;
-}
-#links>a:hover{
-    text-decoration: underline;
-}
-
-.link-space{
-    margin: 0 5px 0 0;
-}
-#btn2{
-    
-    font-weight: bold;
-    padding:12px 3px;
-    background-color: #42b72a;
-}
-#btn1{
-    font-size: 20px;        
-}
-/* @media only screen and(max-width:576px) and (min-width:767px) {
-   #colfb>p{
-    width:19rem;
-    font-size: 12px;
-   } 
-} */
-
-@media only screen and (min-width:768px) and (max-width:1024px) {
-    #colfb>p{
-        width:27rem;
-        font-size: 28px;
-        
-        font-weight: normal;
-       }
-}
-@media only screen and (min-width:1025px) and (min-width:1280px) {
-    #colfb>p{
-        width:34rem;
-        font-size: 28px;
-        font-weight: normal;
-        
-    }
-    /* #collogin{
-        margin-left: 150px;
-    } */
-     
-}
+/*  */
